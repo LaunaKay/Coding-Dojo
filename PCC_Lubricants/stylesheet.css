@@ -1,11 +1,112 @@
 #logo_header {
 	width: 970px;
 	background: linear-gradient(to lightgrey,white);
+	border-bottom: 2px solid darkgrey;
+	padding-left: 25px;
+	padding-right: 25px;
+	background: -webkit-linear-gradient(lightgrey, white);
+	background: -o-linear-gradient(lightgrey, white);
+	background: -moz-linear-gradient(lightgrey, white);
+	background: linear-gradient(lightgrey, white);
+	margin-bottom: 0px;
 }
 
 h1 {
-font: Arial;
-font-size: 20px;
-color:rgb(255,255,255,.2em);
-text-indent: right;
+	font:Arial;
+}
+
+ul {
+	margin:0px;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#phonenumber {
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+	font-size: 20px;
+	color:rgb(255,255,255,.2em);
+	text-align: right;
+	position: absolute;
+	top:25px;
+	margin-left: 200px;
+}
+
+#top_nav_bar {
+	background: -webkit-linear-gradient(lightgrey, white);
+	background: -o-linear-gradient(lightgrey, white);
+	background: -moz-linear-gradient(lightgrey, white);
+	background: linear-gradient(lightgrey, white);
+}
+
+#top_nav_bar li {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 12px;
+	color: grey;
+	list-style: none;
+	display: inline-block;
+	border-left: 1px solid lightgrey;
+	padding: 10px;
+	height:40px;
+	margin-top: 0px;
+}
+
+#top_nav_bar li:last-child {
+	border-right: 1px solid lightgrey;
+}
+
+#body_container {
+	background-color: black;
+	color:white;
+}
+
+#img_and_caption {
+	display: inline-block;
+	width:400px;
+	margin-top:20px;
+}
+
+#img_and_caption img {
+	border:3px solid white;
+	display:inline-block;
+}
+
+#caption {
+	font-size: 8px;
+	color:gold;
+	text-align: left;
+	width:100px;
+}
+
+#about_text {
+	display: inline-block;
+	width:470px;
+	vertical-align: top;
+	margin-top: 20px;
+	background: -webkit-linear-gradient(left, darkgrey , grey);
+	background: -o-linear-gradient(right, darkgrey, grey); 
+	background: -moz-linear-gradient(right, darkgrey, grey);
+	background: linear-gradient(to right, darkgrey , grey);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#about_text h1 {
+	color: black;
+	font-size: 14px;
+	background-color: gold;
+	padding: 10px;
+	vertical-align: top;
+	margin:0px;
+}
+
+#about_text h2 {
+	font-size: 14px;
+	padding: 10px;
+}
+
+#about_text p {
+	padding:10px;
 }
